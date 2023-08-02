@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="styles.css">
+    <title>Rock, Paper, Scissors</title>
+</head>
+<body>
+    <p id="counter1"></p>
+    <p id="counter2"></p>
+    <h1 class="h1-title">Welcome to Rock, Paper, Scissors</h1>
+    <h2 class="h2-title">Game Area</h3>
+        <div id="gameArea">
+            <div id="yourPick"></div>
+            <div>vs</div>
+            <div id="robotPick"></div>
+        </div>
+
+        <p class="para-btn">Choose between Rock, Paper or Scissors!</p>
+        <div id="pick-btn">
+            <div onclick="rock()" id="rockItem">Rock</div>
+            <div onclick="paper()" id="paperItem">Paper</div>
+            <div onclick="scissors()" id="scissorItem">Scissors</div>
+        </div>
+        <p id="winOrLose"></p>
+    <script src="script.js"></script>
+</body>
+</html>
